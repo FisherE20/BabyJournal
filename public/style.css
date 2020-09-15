@@ -1,0 +1,26 @@
+.jumbotron{
+    background-image: url(./assets/images/peter\ rabbit\ 4.jpg);
+    object-fit: cover;
+}
+.photos{
+    background-image: url(assets/images/rabbit\ background.jpg);
+}
+
+h1{
+    color: rgb(18, 37, 26);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+}
+
+.bg-light {
+    background-color: #a0af9f;
+}
