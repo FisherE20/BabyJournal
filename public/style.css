@@ -1,24 +1,73 @@
 .jumbotron{
-    background-image: url(./assets/images/peter\ rabbit\ 4.jpg);
-    object-fit: cover;
+    background-image: url(assets/images/rabbit\ background.jpg);
+    background-repeat: repeat;
+    background-size: 50%;
+    border: 10px solid  #5d5a5a;
+    
 }
+
+.home {
+    background-color:#aeb9c3;
+}
+
 .photos{
     background-image: url(assets/images/rabbit\ background.jpg);
 }
+
+.bg-light{
+    background-color: #aeb9c3;
+}
+.mySlides {
+    display: none;
+  }
+  
+  .topimg{
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    
+    position: relative;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #fdfcfc;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
 
 h1{
     color: rgb(18, 37, 26);
     font-weight: bolder;
     text-align: center;
-    font-size: 24px;
-    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    font-family: 'Gorditas', cursive;
 }
 
 p{
     color: black;
     text-align: center;
     font-size: 18px;
-    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-family: 'Gorditas', cursive;
 }
 
 .bg-light {
